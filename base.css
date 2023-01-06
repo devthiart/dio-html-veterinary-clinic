@@ -1,0 +1,103 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 85%;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border: 1px solid #000000;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-height: 150px;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(149, 228, 228);
+    padding: 10px 20px 0px;
+}
+
+.menu__list {
+    list-style-type: none;
+}
+
+.menu__item {
+    margin-bottom: 8px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content__opening-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    /* background-color: rgb(99, 56, 240); */
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
